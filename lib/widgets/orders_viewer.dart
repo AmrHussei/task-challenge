@@ -22,6 +22,7 @@ class OrdersViewer extends StatelessWidget {
           itemBuilder: (context, index) {
             return const ItemBuilderWidget();
           },
+          itemCount: 20,
         ),
       ),
     );

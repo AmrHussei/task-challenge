@@ -32,8 +32,10 @@ class TaskChallengeScreen extends StatelessWidget {
             ),
             SizedBox(height: 16.h),
             const OrdersViewer(),
-            SizedBox(height: 5.h),
-            const ButtonsForControlOrders()
+            SizedBox(
+              height: 1.h,
+            ),
+            const ButtonsForControlOrders(),
           ],
         ),
       ),
