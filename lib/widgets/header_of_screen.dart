@@ -22,7 +22,7 @@ class HeaderOfScreen extends StatelessWidget {
         child: Row(
           children: [
             const AddNewOrdersWidget(),
-            SizedBox(width: 45.w),
+            const Spacer(),
             TextUtils(
               fontSize: 22.sp,
               fontWeight: FontWeight.w500,
@@ -30,7 +30,7 @@ class HeaderOfScreen extends StatelessWidget {
               color: Colors.white,
             ),
             SizedBox(width: 10.w),
-            const ButtonForPop()
+            const ButtonForPop(),
           ],
         ),
       ),
