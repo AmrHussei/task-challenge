@@ -12,7 +12,7 @@ class OrdersViewer extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 16.h),
       child: SizedBox(
-        height: 520.h,
+        height: 540.h,
         child: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               mainAxisExtent: 195.h,

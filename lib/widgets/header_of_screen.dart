@@ -14,7 +14,7 @@ class HeaderOfScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 139.h,
+      height: 120.h,
       width: double.infinity,
       color: MyColors.mainColor,
       child: Padding(
